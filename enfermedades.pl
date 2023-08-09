@@ -1,3 +1,4 @@
+
 /*
 INTERFAZ GRAFICA: Esta parte del sistema experto es la que se encarga de
 interactuar con la persona comun, mostrar imagenes, botones, textos, etc.
@@ -11,17 +12,30 @@ interactuar con la persona comun, mostrar imagenes, botones, textos, etc.
 
  resource(img_principal, image, image('img_principal.jpg')).
  resource(portada, image, image('portada.jpg')).
- resource(asma, image, image('tratamiento.jpg')).
- resource(influenza, image, image('tratamiento.jpg')).
- resource(bronquitis, image, image('tratamiento.jpg')).
- resource(covid19, image, image('tratamiento.jpg')).
- resource(rinitis, image, image('tratamiento.jpg')).
- resource(pulmonia, image, image('tratamiento.jpg')).
- resource(enfisema, image, image('tratamiento.jpg')).
- resource(neumonia, image, image('tratamiento.jpg')).
+ resource(neumonia, image, image('tra_neumonia.jpg')).
+ resource(asma, image, image('tra_asma.jpg')).
+ resource(crup, image, image('tra_crup.jpg')).
+ resource(alergia, image, image('tra_alergia.jpg')).
+ resource(conjutivitis, image, image('tra_conjuntivitis.jpg')).
+ resource(gripe, image, image('tra_gripe.jpg')).
+ resource(meningitis, image, image('tra_meningitis.jpg')).
+ resource(estres, image, image('tra_estres.jpg')).
+ resource(bronquitis, image, image('tra_bronquitis.jpg')).
+ resource(anemia, image, image('tra_anemia.jpg')).
+ resource(cervicalgia, image, image('tra_cervicalgia.jpg')).
+ resource(colera, image, image('tra_colera.jpg')).
+ resource(colon, image, image('tra_colon.jpg')).
+ resource(disenteria, image, image('tra_disenteria.jpg')).
+ resource(hipertension, image, image('tra_hipertension.jpg')).
+ resource(covid19, image, image('tra_covid19.jpg')).
+ resource(rinitis, image, image('tra_rinitis.jpg')).
+ resource(enfisema, image, image('tra_infisema.jpg')).
+ resource(pulmonia, image, image('tra_pulmonia.jpg')).
+ resource(influenza, image, image('tra_influenza.jpg')).
  resource(lo_siento_diagnostico_desconocido, image, image('desconocido.jpg')).
  resource(tos_cronica, image, image('tos_cronica.jpg')).
  resource(fiebre, image, image('fiebre.jpg')).
+  resource(fiebre_elevada, image, image('fiebre.jpg')).
  resource(escalofrios, image, image('escalofrios.jpg')).
  resource(dolor_muscular, image, image('dolor_muscular.jpg')).
  resource(dolor_cabeza, image, image('dolor_cabeza.jpg')).
@@ -44,17 +58,53 @@ interactuar con la persona comun, mostrar imagenes, botones, textos, etc.
  resource(confusion_mental, image, image('confusion_mental.jpg')).
  resource(tos_seca, image, image('tos_seca.jpg')).
  resource(dolor_garganta, image, image('dolor_garganta.jpg')).
- resource(nauseas, image, image('confusion_mental.jpg')).
- resource(vomito, image, image('tos_seca.jpg')).
- resource(molestia_luz, image, image('dolor_garganta.jpg')).
- resource(depresion, image, image('tos_seca.jpg')).
- resource(sudor_excesivo, image, image('dolor_garganta.jpg')).
- resource(tension, image, image('confusion_mental.jpg')).
- resource(falta_concentracion, image, image('tos_seca.jpg')).
- resource(ataques_panico, image, image('dolor_garganta.jpg')).
+ resource(malestar_cuerpo, image, image('malestar_cuerpo.jpg')).
+ resource(nauseas, image, image('nauseas.jpg')).
+ resource(vomito, image, image('vomito.jpg')).
+ resource(molestia_luz, image, image('molestia_luz.jpg')).
+ resource(depresion, image, image('depresion.jpg')).
+ resource(sudor_excesivo, image, image('sudor_excesivo.jpg')).
+ resource(tension, image, image('tension.jpg')).
+ resource(falta_concentracion, image, image('falta_concentracion.jpg')).
+ resource(ataques_panico, image, image('ataques_panico.jpg')).
+ resource(urticaria, image, image('urticaria.jpg')).
+ resource(eccemas, image, image('eccemas.jpg')).
+ resource(cansancio, image, image('cansancio.jpg')).
+ resource(palidez_piel, image, image('palidez_piel.jpg')).
+ resource(desmayos, image, image('desmayos.jpg')).
+ resource(palpitaciones, image, image('palpitaciones.jpg')).
+ resource(cefalea, image, image('cefalea.jpg')).
+ resource(dolor_cuello, image, image('dolor_cuello.jpg')).
+ resource(rigidez, image, image('rigidez.jpg')).
+ resource(palpitaciones_cuello, image, image('palpitaciones_cuello.jpg')).
+ resource(dolor_brazos, image, image('dolor_brazos.jpg')).
+ resource(torticolis, image, image('torticolis.jpg')).
+ resource(diarrea, image, image('diarrea.jpg')).
+ resource(decaimiento, image, image('decaimiento.jpg')).
+ resource(piel_apergaminada, image, image('piel_apergaminada.jpg')).
+ resource(dolores_musculares, image, image('dolores_musculares.jpg')).
+ resource(sudor_rostro, image, image('sudor_excesivo.jpg')).
+ resource(dolor_abdominal, image, image('dolor_abdominal.jpg')).
+ resource(estrenimiento, image, image('estrenimiento.jpg')).
+ resource(distension_abdominal, image, image('distension_abdominal.jpg')).
+ resource(alteracion_emocional, image, image('alteracion_emocional.jpg')).
+ resource(parpados_pegados, image, image('parpados_pegados.jpg')).
+ resource(secrecion_matinales, image, image('secrecion_matinales.jpg')).
+ resource(molestia_vista, image, image('molestia_vista.jpg')).
+ resource(ojos_enrojesidos, image, image('ojos_enrojesidos.jpg')).
+ resource(ojos_llorosos, image, image('ojos_llorosos.jpg')).
+ resource(ojos_hinchados, image, image('ojos_hinchados.jpg')).
+ resource(tos_perruna, image, image('tos_perruna.jpg')).
+ resource(jadeo, image, image('jadeo.jpg')).
+ resource(piel_azulada, image, image('piel_azulada.jpg')).
+ resource(flatulencia, image, image('flatulencia.jpg')).
+ resource(aletargamiento, image, image('aletargamiento.jpg')).
+ resource(perdida_memoria, image, image('perdida_memoria.jpg')).
+ resource(sensacion_desequilibrio, image, image('sensacion_desequilibrio.jpg')).
+ resource(hormigueo_extremidades, image, image('hormigueo_extremidades.jpg')).
+ resource(transtornos_oculares, image, image('transtornos_oculares.jpg')).
 
-
- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
  mostrar_imagen(Pantalla, Imagen) :- new(Figura, figure),
@@ -186,116 +236,78 @@ tratamiento(X):- send(@lblExp1,selection('De Acuerdo Al Diagnostico El Tratamien
 
 /* BASE DE CONOCIMIENTOS: Síntomas y Enfermedades */
 
-% Enfermedades respiratorias
-/*
-conocimiento('mex',
-    ['tos persistente', 'ma', 'me', 'mi']).
 
-conocimiento('muert',
-    ['goteo nasal', 'dolor en el pecho', 'cccc']).
-
-conocimiento('vida',
-    ['pa', 'dolor en el pecho', 'cvcv']).
-
-conocimiento('crciendo',
-    ['paola', 'dolor en el pecho', 'cxcx']).
-
-*/
-% 1
-conocimiento('covid19',
-    ['fiebre', 'tos seca', 'dificultad para respirar', 'fatiga', 'dolor de garganta']).
-% 2
-conocimiento('pulmonia',
-    ['fiebre', 'tos con sangre', 'respiración rápida', 'confusión mental', 'dolor en el pecho']).
-% 3
-conocimiento('influenza',
-    ['fiebre', 'tos severa', 'escalofríos', 'dolor muscular', 'dolor de cabeza']).
-% 4
-conocimiento('bronquitis',
-    ['fiebre', 'tos con esputo', 'dificultad para respirar', 'fatiga', 'opresión en el pecho']).
-% 5
+% PROBLEMA CUANDO SE REPITE UNA ENFERMEDAD AL INICIO MAS DE 2 VECES
+% 1 al 10
 conocimiento('neumonia',
-    ['fiebre', 'tos con esputo', 'dificultad para respirar', 'dolor en el pecho', 'debilidad']).
-% 6
-conocimiento('Meningitis',
-    ['fiebre', 'dolor de cabeza', 'nauseas', 'vomito', 'molestia ante la luz', 'confusión mental']).
-% 7
+    ['fiebre elevada(alrededor de 40 grados)', 'tos con esputo', 'dificultad para respirar', 'dolor en el pecho', 'debilidad']).
+
+conocimiento('covid19',
+    ['fiebre elevada(alrededor de 40 grados)', 'tos seca', 'dificultad para respirar', 'fatiga', 'dolor de garganta']).
+
+conocimiento('pulmonia',
+    ['fiebre(38 o mas)', 'tos con sangre', 'respiración rápida', 'confusión mental', 'dolor en el pecho']).
+
+conocimiento('influenza',
+    ['fiebre(38 o mas)', 'tos severa', 'escalofríos', 'dolor muscular', 'dolor de cabeza']).
+
 conocimiento('gripe',
-    ['fiebre', 'dolor de cabeza', 'escalofrios', 'dolor de garganta', 'malestar en todo el cuerpo']).
-% 8
+    ['fiebre(38 o mas)', 'dolor de cabeza', 'escalofríos', 'dolor de garganta', 'malestar en todo el cuerpo']).
+
+conocimiento('meningitis',
+    [ 'dolor de cabeza', 'nauseas', 'vomito', 'molestia ante la luz', 'confusión mental']).
+
 conocimiento('estres',
     ['dolor de cabeza', 'depresion', 'sudor excesivo', 'tension', 'falta de concentracion', 'ataques de panico']).
-% 9
-conocimiento('disenteria',
-    ['nauseas', 'vomito', 'dolor abdominal', 'flatulencia', 'aletargamiento', 'debilidad']).
-% 10
-conocimiento('enfisema',
-    ['dificultad para respirar', 'sibilancias', 'opresión en el pecho', 'fatiga', 'tos crónica']).
-% 11
-conocimiento('asma',
-    ['sibilancias', 'dificultad para respirar', 'opresión en el pecho', 'tos persistente']).
-% 12
-conocimiento('rinitis',
-    ['estornudos', 'secreción nasal', 'congestión nasal', 'picazón en la nariz', 'lagrimeo']).
-% 13
-conocimiento('alergia',
-    ['estornudos', 'urticaria', 'eccemas', 'dificultad de respirar']).
-% 14
-conocimiento('amigdalitis',
-    ['fiebre', 'dolor de cabeza', 'vomitos', 'molestia al tragar', 'perdida de apetito']).
-% 15
-conocimiento('anemia',
-    ['cansancio', 'palidez de la piel', 'desmayos', 'palpitaciones', 'cefalea']).
-% 16
-conocimiento('cervicalgia',
-    ['dolor en el cuello', 'rigidez', 'palpitacion dolorosa en el cuello', 'dolor en uno o ambos brazos', 'torticolis']).
-% 17
-conocimiento('colera',
-    ['diarrea', 'vomitos', 'decaimiento', 'piel apergaminada', 'dolores  musculares', 'sudor frio en el rostro']).
-% 18
-conocimiento('colon irritado',
-    ['dolor abdominal', 'estreñimiento', 'distension abdominal', 'nauseas', 'vomitos', 'alteracion emocional', 'depresion']).
-% 19
-conocimiento('conjutivitis',
-    ['parpados pegados', 'secrecion matinales', 'molestia en la vista', 'ojos enrojesidos', 'ojos llorosos', 'ojos hinchados']).
-% 20
+
 conocimiento('crup',
     ['tos perruna', 'dificultad para respirar', 'jadeo', 'piel de la cara azulada']).
-% 21
-% 22
-% 23
-% 24
-% 25
-% 26
-% 27
-% 28
-% 29
-% 30
-% 31
-% 32
-% 33
-% 34
-% 35
-% 36
-% 37
-% 38
-% 39
-% 40
-% 41
-% 42
-% 43
-% 44
-% 45
-% 46
-% 47
-% 48
-% 49
-% 50
+    
+conocimiento('enfisema',
+    ['dificultad para respirar', 'sibilancias', 'opresión en el pecho', 'fatiga', 'tos crónica']).
+
+conocimiento('asma',
+    ['dificultad para respirar','sibilancias', 'opresión en el pecho', 'tos persistente']).
+
+% 11 al 20
+conocimiento('bronquitis',
+    ['tos con esputo', 'dificultad para respirar', 'fatiga', 'opresión en el pecho']).
+
+conocimiento('rinitis',
+    ['estornudos', 'secreción nasal', 'congestión nasal', 'picazón en la nariz', 'lagrimeo']).
+
+conocimiento('alergia',
+    ['estornudos', 'urticaria', 'eccemas', 'dificultad para respirar']).
+
+conocimiento('anemia',
+    ['cansancio', 'palidez de la piel', 'desmayos', 'palpitaciones', 'cefalea']).
+
+conocimiento('cervicalgia',
+    ['dolor en el cuello', 'rigidez', 'palpitacion dolorosa en el cuello', 'dolor en uno o ambos brazos', 'torticolis']).
+
+conocimiento('colera',
+    ['diarrea', 'vomito', 'decaimiento', 'piel apergaminada', 'dolores musculares', 'sudor frio en el rostro']).
+
+conocimiento('colon irritado',
+    ['dolor abdominal', 'distension abdominal', 'nauseas', 'vomito', 'alteracion emocional', 'depresion', 'estreñimiento']).
+
+conocimiento('disenteria',
+    ['dolor abdominal', 'nauseas', 'vomito', 'flatulencia', 'aletargamiento', 'debilidad']).
+
+conocimiento('conjutivitis',
+    ['parpados pegados', 'secrecion matinales', 'molestia en la vista', 'ojos enrojesidos', 'ojos llorosos', 'ojos hinchados']).
+
+conocimiento('hipertension',
+    ['perdida de memoria', 'sensacion de desequilibrio', 'hormigueo en las extremidades', 'transtornos oculares']).
+
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Identificadores de imágenes
-id_imagen_preg('fiebre', 'fiebre').
+id_imagen_preg('fiebre elevada(alrededor de 40 grados)', 'fiebre_elevada').
+id_imagen_preg('fiebre(38 o mas)', 'fiebre').
 id_imagen_preg('escalofríos', 'escalofrios').
 id_imagen_preg('dolor muscular', 'dolor_muscular').
 id_imagen_preg('dolor de cabeza', 'dolor_cabeza').
@@ -319,16 +331,51 @@ id_imagen_preg('respiración rápida', 'respiracion_rapida').
 id_imagen_preg('confusión mental', 'confusion_mental').
 id_imagen_preg('tos seca', 'tos_seca').
 id_imagen_preg('dolor de garganta', 'dolor_garganta').
+id_imagen_preg('malestar en todo el cuerpo','malestar_cuerpo').
 id_imagen_preg('nauseas', 'nauseas').
 id_imagen_preg('vomito', 'vomito').
-id_imagen_preg('molestia ante la luz', 'molestia_luz').
+id_imagen_preg('molestia ante la luz','molestia_luz').
 id_imagen_preg('depresion', 'depresion').
-id_imagen_preg('sudor excesivo', 'sudor_excesivo').
+id_imagen_preg('sudor excesivo','sudor_excesivo').
 id_imagen_preg('tension', 'tension').
 id_imagen_preg('falta de concentracion', 'falta_concentracion').
-id_imagen_preg('ataques de panico', 'ataques_panico').
-
-
+id_imagen_preg('ataques de panico','ataques_panico').
+id_imagen_preg('urticaria', 'urticaria').
+id_imagen_preg('eccemas','eccemas').
+id_imagen_preg('cansancio','cansancio').
+id_imagen_preg('palidez de la piel','palidez_piel').
+id_imagen_preg('desmayos','desmayos').
+id_imagen_preg('palpitaciones','palpitaciones').
+id_imagen_preg('cefalea','cefalea').
+id_imagen_preg('dolor en el cuello','dolor_cuello').
+id_imagen_preg('rigidez','rigidez').
+id_imagen_preg('palpitacion dolorosa en el cuello','palpitaciones_cuello').
+id_imagen_preg('dolor en uno o ambos brazos','dolor_brazos').
+id_imagen_preg('torticolis','torticolis').
+id_imagen_preg('diarrea','diarrea').
+id_imagen_preg('decaimiento','decaimiento').
+id_imagen_preg('piel apergaminada','piel_apergaminada').
+id_imagen_preg('dolores musculares','dolores_musculares').
+id_imagen_preg('sudor frio en el rostro','sudor_rostro').
+id_imagen_preg('dolor abdominal','dolor_abdominal').
+id_imagen_preg('estreñimiento','estrenimiento').
+id_imagen_preg('distension abdominal','distension_abdominal').
+id_imagen_preg('alteracion emocional','alteracion_emocional').
+id_imagen_preg('parpados pegados','parpados_pegados').
+id_imagen_preg('secrecion matinales','secrecion_matinales').
+id_imagen_preg('molestia en la vista','molestia_vista').
+id_imagen_preg('ojos enrojesidos','ojos_enrojesidos').
+id_imagen_preg('ojos llorosos','ojos_llorosos').
+id_imagen_preg('ojos hinchados','ojos_hinchados').
+id_imagen_preg('tos perruna','tos_perruna').
+id_imagen_preg('jadeo','jadeo').
+id_imagen_preg('piel de la cara azulada','piel_azulada').
+id_imagen_preg('flatulencia','flatulencia').
+id_imagen_preg('aletargamiento','aletargamiento').
+id_imagen_preg('perdida de memoria','perdida_memoria').
+id_imagen_preg('sensacion de desequilibrio','sensacion_desequilibrio').
+id_imagen_preg('hormigueo en las extremidades','hormigueo_extremidades').
+id_imagen_preg('transtornos oculares','transtornos_oculares').
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
